@@ -72,10 +72,11 @@ header h1 {
     z-index:2;
 }
 
-header h2{
+header h2 {
    font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    margin-left: 450px; 
+    text-align: center;
+    margin-left: 475px; 
     margin-top: 25px; 
     color: #fff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -104,7 +105,6 @@ header h2{
     margin-left:0px;
     margin-top: 0px;
     position:fixed;
-
     z-index: 2;
 }
 
@@ -112,6 +112,8 @@ header h2{
 #player-guess{
     height:200px;
     width:200px;
+    font-size: 60px;
+    text-align: center;
     margin-left:290px;
     margin-top: 10px;
     background-color: #fff;
@@ -160,17 +162,22 @@ header h2{
 
 ul{
   margin-left: 130px;
+  list-style: none;
+  padding: 0;
 }
 
 
 li{
   display:inline-block;
+  vertical-align: top;
   background:#fff;
-  height: 100px;
+  height: 70px;
   width:100px;
   border: 2px solid black;
   border-radius: 10px;
-
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 
